@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Sınav</h1>
+    <form action="/submit" method="POST">
+        <div>
+            <p>1. Python'da makine öğrenimi algoritmaları için hangi kütüphane yaygın olarak kullanılır?</p>
+            <input type="radio" id="q1_option1" name="q1" value="option1">
+            <label for="q1_option1">Scikit-learn</label><br>
+            <input type="radio" id="q1_option2" name="q1" value="option2">
+            <label for="q1_option2">Pandas</label><br>
+            <input type="radio" id="q1_option3" name="q1" value="option3">
+            <label for="q1_option3">Numpy</label><br>
+            <input type="radio" id="q1_option4" name="q1" value="option4">
+            <label for="q1_option4">Matplotlib</label>
+        </div>
+        <div>
+            <p>2. Bilgisayarla görme için hangi kütüphane sıklıkla kullanılır?</p>
+            <input type="radio" id="q2_option1" name="q2" value="option1">
+            <label for="q2_option1">OpenCV</label><br>
+            <input type="radio" id="q2_option2" name="q2" value="option2">
+            <label for="q2_option2">Requests</label><br>
+            <input type="radio" id="q2_option3" name="q2" value="option3">
+            <label for="q2_option3">BeautifulSoup</label><br>
+            <input type="radio" id="q2_option4" name="q2" value="option4">
+            <label for="q2_option4">Flask</label>
+        </div>
+        <div>
+            <p>3. NLP (Doğal Dil İşleme) için kullanılan popüler kütüphaneler hangileridir?</p>
+            <input type="radio" id="q3_option1" name="q3" value="option1">
+            <label for="q3_option1">Scikit-learn ve NLTK</label><br>
+            <input type="radio" id="q3_option2" name="q3" value="option2">
+            <label for="q3_option2">Pandas ve NumPy</label><br>
+            <input type="radio" id="q3_option3" name="q3" value="option3">
+            <label for="q3_option3">Keras ve TensorFlow</label><br>
+            <input type="radio" id="q3_option4" name="q3" value="option4">
+            <label for="q3_option4">Matplotlib ve Seaborn</label>
+        </div>
+        <div>
+            <p>4. AI uygulamalarında hangi framework'ler sıkça kullanılır?</p>
+            <input type="radio" id="q4_option1" name="q4" value="option1">
+            <label for="q4_option1">TensorFlow ve PyTorch</label><br>
+            <input type="radio" id="q4_option2" name="q4" value="option2">
+            <label for="q4_option2">Pandas ve NumPy</label><br>
+            <input type="radio" id="q4_option3" name="q4" value="option3">
+            <label for="q4_option3">Flask ve Django</label><br>
+            <input type="radio" id="q4_option4" name="q4" value="option4">
+            <label for="q4_option4">Requests ve BeautifulSoup</label>
+        </div>
+        <button type="submit">Sonuçları Gönder</button>
+    </form>
+</body>
+</html>

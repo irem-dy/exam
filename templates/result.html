@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonuçlar</title>
+</head>
+<body>
+    <h1>Sonuçlar</h1>
+    <p>Toplam Doğru: {{ score }}</p>
+    <p>Toplam Yanlış: {{ 4 - score }}</p>
+    <h2>Yanıtlarınız:</h2>
+    <ul>
+        <li>Soru 1: {{ answers['q1'] }}</li>
+        <li>Soru 2: {{ answers['q2'] }}</li>
+        <li>Soru 3: {{ answers['q3'] }}</li>
+        <li>Soru 4: {{ answers['q4'] }}</li>
+    </ul>
+    <a href="/quiz">Quiz'e geri dön</a>
+</body>
+</html>
